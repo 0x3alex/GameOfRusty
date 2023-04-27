@@ -4,7 +4,6 @@ use rand::Rng; // 0.8.5
 
 static DEAD: i8 = 0;
 static ALIVE: i8 = 1;
-static RECT_SIZE: i8 = 10;
 
 #[derive(Copy, Clone)]
 struct Table {
